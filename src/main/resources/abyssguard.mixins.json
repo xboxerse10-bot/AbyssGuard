@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "ro.abyssmc.abyssguard.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "NaturalSpawnerMixin",
+    "ServerExplosionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
