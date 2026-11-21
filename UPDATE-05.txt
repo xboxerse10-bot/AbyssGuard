@@ -1,0 +1,6 @@
+AbyssGuard Fix 05
+- MOB_DAMAGE deny: prevents damage to players from mobs, including projectiles with mob owner.
+- MOB_SPAWNING deny: removes Mob entities as they load into protected regions. IMPORTANT: this also affects existing mobs loaded from disk, and may not catch every modded entity/spawn pathway.
+- FALL_DAMAGE deny retained.
+- Other flags (PvP, TNT, fire spread etc.) NOT implemented in this update.
+- Build NOT verified in this environment; compile using GitHub Actions.
