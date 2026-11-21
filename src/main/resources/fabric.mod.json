@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "abyssguard",
+  "version": "${version}",
+  "name": "AbyssGuard",
+  "description": "Region and flag protection for AbyssMC (alpha)",
+  "authors": ["AbyssMC"],
+  "environment": "server",
+  "entrypoints": {"main": ["ro.abyssmc.abyssguard.AbyssGuard"]},
+  "depends": {"fabricloader": ">=0.19.5", "minecraft": "26.3", "fabric-api": "*"}
+}
