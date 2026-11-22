@@ -1,0 +1,6 @@
+FIX 13 (experimental, source only)
+- BucketItemMixin intercepts BucketItem.use, including empty buckets, with clicked/adjacent region checks.
+- LevelFireMixin intercepts fire placement via Level.setBlock, including fire caused by lava.
+- Existing PvP, explosion, GUI and region data logic retained.
+- IMPORTANT: Build was attempted but could not run: Gradle distribution download unavailable (UnknownHostException services.gradle.org).
+- Runtime compatibility with Minecraft 26.3 is UNVERIFIED. Test on a backup, keep Fix 11 as rollback.

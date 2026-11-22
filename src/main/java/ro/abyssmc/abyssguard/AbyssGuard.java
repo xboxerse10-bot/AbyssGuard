@@ -129,6 +129,9 @@ public final class AbyssGuard implements ModInitializer {
         }
         return true;
     }
+    public static boolean canModify(net.minecraft.world.entity.player.Player player, BlockPos pos, Flag flag) {
+        return permitted(player, pos, flag);
+    }
     private static boolean permitted(net.minecraft.world.entity.player.Player player,BlockPos pos,Flag flag) {
         if (!(player instanceof ServerPlayer p)) return true;
         String permission=flag==Flag.BLOCK_BREAK?"abyssguard.build":flag==Flag.BLOCK_PLACE?"abyssguard.build":"abyssguard.interact";

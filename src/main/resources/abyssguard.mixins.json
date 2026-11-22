@@ -5,7 +5,9 @@
   "mixins": [
     "NaturalSpawnerMixin",
     "ServerExplosionMixin",
-    "FireBlockMixin"
+    "FireBlockMixin",
+    "BucketItemMixin",
+    "LevelFireMixin"
   ],
   "injectors": {
     "defaultRequire": 1
